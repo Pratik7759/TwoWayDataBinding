@@ -1,0 +1,18 @@
+<!-- interpolation and pipes in angular -->
+<!-- {{ name | uppercase }} -->
+<h1>Example of two-way data binding in angular</h1>
+<div class="form">
+  <label
+    >Name : <input type="text" placeholder="name" [(ngModel)]="name" />
+  </label>
+  <label
+    >E-mail : <input type="email" placeholder="email" [(ngModel)]="email" />
+  </label>
+  <label
+    >Contact :
+    <input type="number" placeholder="number" [(ngModel)]="contact" />
+  </label>
+  <h2>{{ name }}</h2>
+  <h2>{{ email }}</h2>
+  <h2>{{ contact }}</h2>
+</div>
